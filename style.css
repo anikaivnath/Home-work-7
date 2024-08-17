@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+   
+}
+.txt {
+    text-align: justify;
+   
+}
+h4{
+    color:white;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.full{
+    background-color: black;
+   
+}
+.container {
+    margin: 20px 70px;
+    display: flex;
+    flex-wrap: wrap; 
+    /* Allows items to wrap to the next line if there's not enough space */
+}
+
+.txt {
+    display: flex;
+    flex-direction: row; /* Arrange the paragraphs in a row */
+    gap: 20px; /* Adds space between the paragraphs */
+}
